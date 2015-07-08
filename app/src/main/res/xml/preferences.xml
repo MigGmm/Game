@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="difficulty"
+        android:title="@string/difficulty"
+        android:summary="%s"
+        android:entries="@array/difficulties"
+        android:entryValues="@array/difficultiesValues"
+        android:defaultValue="1"/>
+
+    <CheckBoxPreference
+        android:key="music"
+        android:title="@string/music"
+        android:summary="@string/play_music"
+        android:defaultValue="true"/>
+
+    <CheckBoxPreference
+        android:key="effects"
+        android:title="@string/effects"
+        android:summary="@string/play_effects"
+        android:defaultValue="true"/>
+
+</PreferenceScreen>

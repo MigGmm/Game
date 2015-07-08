@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Battle of Britain</string>
+    <string name="play">Play</string>
+    <string name="show_scores">Scores</string>
+    <string name="preferences">Preferences</string>
+    <string name="about">About</string>
+    <string name="close">Close</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="your_score">Your punctuation is:</string>
+    <string name="type_name">Type your name here:</string>
+    <string name="store_score">Do you want to save score?</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
+    <string name="britain_lost">You were shot down, britain is lost...</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="text_about">Game made by Miguel Francisco García del Moral Muñoz</string>
+    <string name="title_activity_preferences">Preferences</string>
+
+    <!-- Strings for preferences-->
+
+    <string name="difficulty">Level</string>
+    <string-array name="difficulties">
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string-array name="difficultiesValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="music">Music</string>
+    <string name="effects">Effects</string>
+    <string name="play_music">Do you want music?</string>
+    <string name="play_effects">Do you want sound effects?</string>
+
+</resources>

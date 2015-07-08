@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|center_horizontal"
+    android:background="@drawable/backgroundmain">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play"
+        android:id="@+id/btnPlay"
+        style="@style/text_color_blanco"
+        android:onClick="launchGame" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_scores"
+        android:id="@+id/btnScores"
+        style="@style/text_color_blanco"
+        android:onClick="launchScores" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/preferences"
+        android:id="@+id/btnPreferences"
+        style="@style/text_color_blanco"
+        android:onClick="launchPreferences" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about"
+        android:id="@+id/btnAbout"
+        style="@style/text_color_blanco"
+        android:onClick="launchAbout" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/close"
+        android:id="@+id/bottom"
+        android:onClick="closeApp" />
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Batalla de Inglaterra</string>
+    <string name="play">Jugar</string>
+    <string name="show_scores">Puntuaciones</string>
+    <string name="preferences">Preferencias</string>
+    <string name="about">About</string>
+    <string name="close">Salir</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="action_settings">Preferencias</string>
+    <string name="your_score">Su puntuación es:</string>
+    <string name="type_name">Escriba su nombre:</string>
+    <string name="store_score">¿Quiere savar su puntuación?</string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="britain_lost">Fuiste abatido, inglaterra está perdida...</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="text_about">Juego hecho por Miguel Francisco García del Moral Muñoz</string>
+    <string name="title_activity_preferences">Preferencias</string>
+
+    <!-- Strings para preferences-->
+
+    <string name="difficulty">Nivel</string>
+    <string-array name="difficulties">
+        <item>Facil</item>
+        <item>Normal</item>
+        <item>Difícil</item>
+    </string-array>
+
+    <string-array name="difficultiesValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="music">Musica</string>
+    <string name="effects">Efectos</string>
+    <string name="play_music">¿Quieres música?</string>
+    <string name="play_effects">¿Quieres effects de sonido?</string>
+
+</resources>
